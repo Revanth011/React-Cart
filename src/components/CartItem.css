@@ -1,0 +1,8 @@
+.cart-item-img {
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-rounded {
+    cursor: pointer;
+}

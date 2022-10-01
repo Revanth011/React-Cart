@@ -1,0 +1,70 @@
+.main-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+
+th {
+    text-align: left;
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+}
+
+table img {
+    width: 100%;
+    height: 8rem;
+    object-fit: contain;
+}
+
+.buy-container {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 100%;
+}
+
+input {
+    outline: none;
+    border: 2px solid black;
+    padding: 0.2rem 0.4rem;
+}
+
+select {
+    outline: none;
+    border: 2px solid black;
+    padding: 0.2rem 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 0.2rem 0.4rem;
+    font-size: 1rem;
+    background: transparent;
+}
+
+button:hover {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(124, 124, 124);
+    padding: 0.2rem 0.4rem;
+    font-size: 1rem;
+    background: transparent;
+}
+
+#item-count {
+    width: 2rem;
+    padding: 0.2rem 1rem;
+}
+
+.material-symbols-rounded {
+    padding: 0.2rem 1rem;
+    font-size: 2rem;
+}

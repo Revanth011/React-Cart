@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.4rem 1rem;
+    width: 90vw;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.option-reset {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
